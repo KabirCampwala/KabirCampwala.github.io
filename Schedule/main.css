@@ -70,10 +70,17 @@
     font-weight: 100;
 }
 
-body {
+/* body {
     background: linear-gradient(235deg, #FFFFFF 0%, #000F25 100%), linear-gradient(180deg, #6100FF 0%, #000000 100%), linear-gradient(235deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%), linear-gradient(125deg, #FFA3AC 0%, #FFA3AC 40%, #00043C calc(40% + 1px), #00043C 60%, #005D6C calc(60% + 1px), #005D6C 70%, #00C9B1 calc(70% + 1px), #00C9B1 100%);
     background-blend-mode: soft-light, screen, darken, normal;
-} 
+    background-size: cover;
+}  */
+
+body {
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
 .all {
     border-collapse: collapse;
     font-size: 0.9em;
@@ -101,18 +108,21 @@ thead, tr {
     font-size: 0.8em;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     
+  body {
+    background-size: cover;
+  }
     .Division {
-      font-size: 1.2em;
+      font-size: 1em;
       text-align: center;
     }
     .all {
         border-collapse: collapse;
-        font-size: 0.8em;
+        font-size: 0.7em;
         border-radius: 2px 2px 0 0;
         overflow: hidden;
-        min-width: 400px;
+        min-width: 3\400px;
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
         text-align: center;
     }
@@ -123,7 +133,7 @@ thead, tr {
     .footer {
         font-size: small;
     }
-}
+} */
 
 
 /*.all tbody tr {
