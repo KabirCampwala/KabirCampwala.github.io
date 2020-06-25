@@ -9,7 +9,7 @@
 }
 
   /* Button used to open the contact form - fixed at the bottom of the page */
-  .open-button {
+  /* .open-button {
     background-color: black;
     color: white;
     padding:5px;
@@ -24,10 +24,10 @@
 
   .open-button:hover {
     opacity: 1;
-  }
+  } */
   
   /* The popup form - hidden by default */
-  .form-popup {
+  /* .form-popup {
     display: none;
     position: fixed;
     bottom: 0;
@@ -42,29 +42,29 @@
     color: white;
     text-align: center;
     font-weight: 300;
-  }
+  } */
   /* Add styles to the form container */
-  .form-container {
+  /* .form-container {
     max-width: 90px;
     padding: 50px 50px 50px 50px;
     background-color: black;
     border: 1px solid white;
-  }
+  } */
   
   /* Add a red background color to the cancel button */
-  .form-container .cancel {
+  /* .form-container .cancel {
     size: 20px;
     background-color: black;
     border: 1px solid white;
-  }
+  } */
 
-  .cancel{
+  /* .cancel{
     margin-top: 0;
   }
   .cancel:hover{
     background-color: rgba(74, 95, 190, 0.25);
     opacity: 0.7;
-  }
+  } */
 .Division {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
